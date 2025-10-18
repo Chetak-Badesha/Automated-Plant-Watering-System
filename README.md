@@ -35,6 +35,12 @@ MainProjectEECS1021/
 - Water Pump connected to D2 (digital pin).
 - Arduino Nano / compatible board running StandardFirmata firmware.
 
+### System Layout
+
+![Hardware Setup](./SystemSetup.png)
+
+*Automated system layout showing Arduino Nano, moisture sensor in the soil, water pump connected to a water source, tubing routed to the plant pot, MOSFET and wiring connections, powered externally with control logic running on a laptop.*
+
 ## Usage
 1. Connect the Arduino board to your PC (default: `COM3` in code).
 2. Compile the Java project using your IDE or command line.
